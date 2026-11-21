@@ -1,0 +1,3 @@
+setting,n_attack,asr_default,asr_triton,mean_eps_default,n_certs,mean_ehard_default,mean_ehard_triton,mean_ehard_reference,frac_def_vs_M_within_1step,env
+ResNet-18/CIFAR-10,300,71.0,31.3,3.518,20,7.47,7.47,7.47,1.0,"torch 2.6.0+cu124, RTX 6000 Ada"
+VGG-16-BN/SVHN,300,84.3,20.7,5.587,20,18.08,18.09,18.08,1.0,"torch 2.6.0+cu124, RTX 6000 Ada"

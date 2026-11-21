@@ -1,0 +1,74 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+develop-eggs/
+*.egg
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ---- Testing / coverage / type checkers ----
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- IDEs / editors ----
+.idea/
+.vscode/
+.claude/
+*.swp
+*~
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- Datasets / downloads ----
+data/
+datasets/
+*.tar
+*.tar.gz
+*.zip
+*.gz
+
+# ---- Model weights / checkpoints ----
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.bin
+checkpoints/
+
+# ---- HuggingFace / caches ----
+.cache/
+hf_cache/
+wandb/
+
+# ---- Logs / outputs ----
+*.log
+logs/
+outputs/
+runs/
+
+# ---- Local verification outputs ----
+result/
+results/

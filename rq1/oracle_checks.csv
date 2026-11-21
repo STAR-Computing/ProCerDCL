@@ -1,0 +1,5 @@
+task_id,model,dataset,backend,n_inputs,n_perturbations,repeats,inconsistent_repeat,inconsistent_permute,inconsistent_mixed,inconsistent_single
+1,LeNet-5,MNIST,tensorrt,98,25088,10,0,0,0,4
+2,ResNet-18,CIFAR-10,inductor,100,25600,10,0,0,0,0
+18,VGG-16-BN,SVHN,inductor,100,25600,10,0,0,0,0
+14,ResNet-34,SVHN,tensorrt,100,25600,10,0,0,0,1

@@ -1,0 +1,3 @@
+variant,clean_agree,max_abs_logit_diff,n_inputs,median_eps_hard,cond_density,cond_hits,cond_draws,yes,no,none,mean_cond_draws_k
+fixed,10000/10000,0.0085,30,33.83,5.67e-06,34,6000000,30,0,0,13.6
+buggy,9948/10000,4.2698,30,27.28,6.48e-02,388530,6000000,0,30,0,3.1

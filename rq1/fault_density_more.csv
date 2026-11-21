@@ -1,0 +1,6 @@
+task_id,radius,fault_rel,fault_layer,n_inputs,draws_per_input,hits,density,inputs_with_any_hit
+2,full,0.005,fc,20,200000,1110,0.0002775,20
+2,full,0.05,fc,20,200000,2378,0.0005945,18
+2,full,0.1,fc,20,200000,4115,0.00102875,17
+2,full,0.5,fc,20,200000,28805,0.00720125,16
+2,full,1.2,fc,20,200000,151797,0.03794925,17

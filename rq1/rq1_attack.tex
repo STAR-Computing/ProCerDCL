@@ -1,0 +1,39 @@
+\begin{table}[t]
+{\color{red}%
+\centering\small
+\setlength{\tabcolsep}{3pt}
+\caption{Per-setting correlation (Pearson $r$ / Spearman $\rho$) between \tool's certified hardness $\epsilon_{\mathrm{Hard}}$ and the white-box attack's minimal $L_2$ flip budget, for the 16 tasks that pass the saturation-only qualification rule of Section~\ref{sec:setup} ($n_{\mathrm{c}}\ge90$ of 100 on both backends), per compiler backend. Every qualified cell is reported regardless of significance; $p$-values and confidence intervals are in the artifact CSV.}
+\label{tab:robustness}
+\begin{tabular}{llcccc}
+\toprule
+\multirow{2}{*}{Model} & \multirow{2}{*}{Dataset} & \multicolumn{2}{c}{inductor} & \multicolumn{2}{c}{tensorrt} \\
+\cmidrule(lr){3-4} \cmidrule(lr){5-6}
+& & Pearson & Spearman & Pearson & Spearman \\
+\midrule
+LeNet-5 & MNIST & 0.85 & 0.90 & 0.93 & 0.95 \\
+\midrule
+\multirow{3}{*}{ResNet-18} & CIFAR-10 & 0.71 & 0.82 & 0.58 & 0.65 \\
+ & CIFAR-100 & 0.67 & 0.62 & 0.70 & 0.68 \\
+ & SVHN & 0.88 & 0.90 & 0.83 & 0.85 \\
+\midrule
+\multirow{3}{*}{ResNet-50} & CIFAR-100 & 0.62 & 0.67 & 0.66 & 0.65 \\
+ & SVHN & 0.78 & 0.83 & 0.78 & 0.82 \\
+ & CIFAR-10 & 0.32 & 0.69 & 0.47 & 0.56 \\
+\midrule
+\multirow{3}{*}{ResNet-34} & CIFAR-10 & 0.61 & 0.71 & 0.62 & 0.68 \\
+ & CIFAR-100 & 0.44 & 0.48 & 0.61 & 0.58 \\
+ & SVHN & 0.75 & 0.86 & 0.78 & 0.86 \\
+\midrule
+\multirow{3}{*}{VGG-16-BN} & CIFAR-10 & 0.37 & 0.71 & 0.60 & 0.66 \\
+ & CIFAR-100 & 0.62 & 0.63 & 0.48 & 0.54 \\
+ & SVHN & 0.82 & 0.85 & 0.76 & 0.81 \\
+\midrule
+\multirow{3}{*}{DenseNet-121} & CIFAR-10 & 0.62 & 0.64 & 0.67 & 0.66 \\
+ & CIFAR-100 & 0.48 & 0.42 & 0.40 & 0.48 \\
+ & SVHN & 0.79 & 0.84 & 0.77 & 0.82 \\
+\midrule
+\multicolumn{2}{l}{Mean (unweighted)} & 0.65 & 0.72 & 0.66 & 0.70 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

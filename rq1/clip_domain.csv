@@ -1,0 +1,3 @@
+task_id,model,dataset,backend,n,pearson_unclipped,spearman_unclipped,pearson_clipped,spearman_clipped,radius_corr_clip_vs_unclip,median_ratio_clip_over_unclip
+1,LeNet-5,MNIST,tensorrt,98,0.928,0.949,0.863,0.913,0.829,1.551
+2,ResNet-18,CIFAR-10,inductor,100,0.714,0.817,0.704,0.808,0.994,1.0

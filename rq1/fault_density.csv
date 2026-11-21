@@ -1,0 +1,5 @@
+task_id,fault_rel,fault_layer,n_inputs,draws_per_input,hits,density,inputs_with_any_hit
+2,0,-,20,200000,0,0.0,0
+2,0.02,fc,20,200000,0,0.0,0
+2,0.2,fc,20,200000,0,0.0,0
+2,0.8,fc,20,200000,0,0.0,0

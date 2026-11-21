@@ -1,0 +1,3 @@
+setting,n_attack_success,n_pairs,pearson_r,spearman_rho,mean_ehard_int8real,n_common4,mean_absdiff_vs_qdq,within1step_vs_qdq,mean_absdiff_vs_reference,within1step_vs_reference,mean_absdiff_vs_fp32compiled,within1step_vs_fp32compiled,fit_slope,fit_intercept
+LeNet-5 / MNIST,166,100,0.819,0.873,9.5,4,0.138,0.75,0.0,1.0,0.0,1.0,5.558,-2.14
+ResNet-34 / SVHN,196,99,0.758,0.825,25.97,8,0.294,0.625,0.3,0.625,0.3,0.625,6.427,-4.105

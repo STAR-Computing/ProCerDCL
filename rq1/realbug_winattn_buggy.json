@@ -1,0 +1,310 @@
+{
+  "variant": "buggy",
+  "issue": "https://github.com/pytorch/TensorRT/issues/4379",
+  "ref_acc": 0.8253,
+  "clean_agree": 8058,
+  "n_test": 10000,
+  "max_abs_logit_diff": 5.0518,
+  "inputs": [
+    {
+      "image_id": 0,
+      "eps_hard": 2.75,
+      "radius": 20.850000000000005,
+      "brute_hits": 114202,
+      "brute_draws": 200000,
+      "cond_answer": "No",
+      "cond_n": 256,
+      "elapsed_s": 11.0
+    },
+    {
+      "image_id": 1,
+      "eps_hard": 12.700000000000001,
+      "radius": 12.1,
+      "brute_hits": 447,
+      "brute_draws": 200000,
+      "cond_answer": "No",
+      "cond_n": 66048,
+      "elapsed_s": 5.5
+    },
+    {
+      "image_id": 2,
+      "eps_hard": null,
+      "radius": 8.700000000000001,
+      "brute_hits": 182363,
+      "brute_draws": 200000,
+      "cond_answer": "No",
+      "cond_n": 256,
+      "elapsed_s": 3.1
+    },
+    {
+      "image_id": 3,
+      "eps_hard": null,
+      "radius": 3.8499999999999996,
+      "brute_hits": 198640,
+      "brute_draws": 200000,
+      "cond_answer": "No",
+      "cond_n": 256,
+      "elapsed_s": 3.1
+    },
+    {
+      "image_id": 4,
+      "eps_hard": 38.400000000000006,
+      "radius": 32.349999999999994,
+      "brute_hits": 279,
+      "brute_draws": 200000,
+      "cond_answer": "None",
+      "cond_n": 221049,
+      "elapsed_s": 9.2
+    },
+    {
+      "image_id": 5,
+      "eps_hard": 96.15,
+      "radius": 88.65,
+      "brute_hits": 89,
+      "brute_draws": 200000,
+      "cond_answer": "Yes",
+      "cond_n": 63744,
+      "elapsed_s": 6.8
+    },
+    {
+      "image_id": 6,
+      "eps_hard": 9.200000000000001,
+      "radius": 11.700000000000001,
+      "brute_hits": 9942,
+      "brute_draws": 200000,
+      "cond_answer": "No",
+      "cond_n": 256,
+      "elapsed_s": 4.6
+    },
+    {
+      "image_id": 7,
+      "eps_hard": 114.95041626393794,
+      "radius": 111.35316319465636,
+      "brute_hits": 260,
+      "brute_draws": 200000,
+      "cond_answer": "None",
+      "cond_n": 221049,
+      "elapsed_s": 8.9
+    },
+    {
+      "image_id": 8,
+      "eps_hard": 13.100000000000001,
+      "radius": 12.5,
+      "brute_hits": 506,
+      "brute_draws": 200000,
+      "cond_answer": "No",
+      "cond_n": 41728,
+      "elapsed_s": 5.4
+    },
+    {
+      "image_id": 9,
+      "eps_hard": 9.3,
+      "radius": 8.9,
+      "brute_hits": 433,
+      "brute_draws": 200000,
+      "cond_answer": "No",
+      "cond_n": 60416,
+      "elapsed_s": 5.6
+    },
+    {
+      "image_id": 10,
+      "eps_hard": 5.550000000000001,
+      "radius": 7.15,
+      "brute_hits": 8059,
+      "brute_draws": 200000,
+      "cond_answer": "No",
+      "cond_n": 256,
+      "elapsed_s": 4.6
+    },
+    {
+      "image_id": 11,
+      "eps_hard": 38.10000000000001,
+      "radius": 36.60000000000001,
+      "brute_hits": 244,
+      "brute_draws": 200000,
+      "cond_answer": "None",
+      "cond_n": 221049,
+      "elapsed_s": 8.4
+    },
+    {
+      "image_id": 12,
+      "eps_hard": 1.3000000000000003,
+      "radius": 6.800000000000001,
+      "brute_hits": 101998,
+      "brute_draws": 200000,
+      "cond_answer": "No",
+      "cond_n": 256,
+      "elapsed_s": 3.9
+    },
+    {
+      "image_id": 13,
+      "eps_hard": 13.8,
+      "radius": 17.400000000000002,
+      "brute_hits": 11320,
+      "brute_draws": 200000,
+      "cond_answer": "No",
+      "cond_n": 256,
+      "elapsed_s": 4.8
+    },
+    {
+      "image_id": 14,
+      "eps_hard": 29.650000000000002,
+      "radius": 35.300000000000004,
+      "brute_hits": 2864,
+      "brute_draws": 200000,
+      "cond_answer": "No",
+      "cond_n": 256,
+      "elapsed_s": 5.4
+    },
+    {
+      "image_id": 15,
+      "eps_hard": 10.600000000000001,
+      "radius": 11.350000000000001,
+      "brute_hits": 2079,
+      "brute_draws": 200000,
+      "cond_answer": "No",
+      "cond_n": 1024,
+      "elapsed_s": 4.5
+    },
+    {
+      "image_id": 16,
+      "eps_hard": 9.500000000000002,
+      "radius": 11.200000000000001,
+      "brute_hits": 4988,
+      "brute_draws": 200000,
+      "cond_answer": "No",
+      "cond_n": 512,
+      "elapsed_s": 4.5
+    },
+    {
+      "image_id": 17,
+      "eps_hard": null,
+      "radius": 8.25,
+      "brute_hits": 191632,
+      "brute_draws": 200000,
+      "cond_answer": "No",
+      "cond_n": 256,
+      "elapsed_s": 3.1
+    },
+    {
+      "image_id": 18,
+      "eps_hard": 16.1,
+      "radius": 18.800000000000004,
+      "brute_hits": 6884,
+      "brute_draws": 200000,
+      "cond_answer": "No",
+      "cond_n": 256,
+      "elapsed_s": 4.9
+    },
+    {
+      "image_id": 19,
+      "eps_hard": 108.11625289916992,
+      "radius": 104.90086064338684,
+      "brute_hits": 269,
+      "brute_draws": 200000,
+      "cond_answer": "None",
+      "cond_n": 221049,
+      "elapsed_s": 9.0
+    },
+    {
+      "image_id": 21,
+      "eps_hard": 12.600000000000001,
+      "radius": 8.25,
+      "brute_hits": 0,
+      "brute_draws": 200000,
+      "cond_answer": "Yes",
+      "cond_n": 9984,
+      "elapsed_s": 4.6
+    },
+    {
+      "image_id": 22,
+      "eps_hard": 10.500000000000002,
+      "radius": 10.200000000000003,
+      "brute_hits": 517,
+      "brute_draws": 200000,
+      "cond_answer": "No",
+      "cond_n": 7680,
+      "elapsed_s": 4.8
+    },
+    {
+      "image_id": 23,
+      "eps_hard": 28.8,
+      "radius": 32.64999999999999,
+      "brute_hits": 5272,
+      "brute_draws": 200000,
+      "cond_answer": "No",
+      "cond_n": 512,
+      "elapsed_s": 5.1
+    },
+    {
+      "image_id": 24,
+      "eps_hard": 8.5,
+      "radius": 12.2,
+      "brute_hits": 9475,
+      "brute_draws": 200000,
+      "cond_answer": "No",
+      "cond_n": 256,
+      "elapsed_s": 4.9
+    },
+    {
+      "image_id": 25,
+      "eps_hard": 5.550000000000001,
+      "radius": 3.05,
+      "brute_hits": 0,
+      "brute_draws": 200000,
+      "cond_answer": "Yes",
+      "cond_n": 9984,
+      "elapsed_s": 4.6
+    },
+    {
+      "image_id": 26,
+      "eps_hard": null,
+      "radius": 13.05,
+      "brute_hits": 51550,
+      "brute_draws": 200000,
+      "cond_answer": "No",
+      "cond_n": 256,
+      "elapsed_s": 3.1
+    },
+    {
+      "image_id": 27,
+      "eps_hard": 0.7000000000000001,
+      "radius": 4.9,
+      "brute_hits": 119988,
+      "brute_draws": 200000,
+      "cond_answer": "No",
+      "cond_n": 256,
+      "elapsed_s": 3.6
+    },
+    {
+      "image_id": 28,
+      "eps_hard": 8.8,
+      "radius": 24.4,
+      "brute_hits": 2517,
+      "brute_draws": 200000,
+      "cond_answer": "No",
+      "cond_n": 1280,
+      "elapsed_s": 4.9
+    },
+    {
+      "image_id": 29,
+      "eps_hard": 130.0,
+      "radius": 127.15,
+      "brute_hits": 190,
+      "brute_draws": 200000,
+      "cond_answer": "None",
+      "cond_n": 221049,
+      "elapsed_s": 9.1
+    },
+    {
+      "image_id": 30,
+      "eps_hard": 98.65,
+      "radius": 95.25,
+      "brute_hits": 213,
+      "brute_draws": 200000,
+      "cond_answer": "None",
+      "cond_n": 221049,
+      "elapsed_s": 9.1
+    }
+  ]
+}

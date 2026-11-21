@@ -1,0 +1,4 @@
+setting,n,mean_ksamples_fixed,mean_ksamples_split,mean_inflation,mean_abs_eps_diff,frac_within_1step,mean_elapsed_s
+LeNet-5/MNIST (tensorrt),100,126.3,188.4,1.496,0.053,0.89,264.0
+ResNet-18/CIFAR-10 (inductor),100,111.4,166.3,1.489,0.019,0.98,480.5
+AUDIT: Yes-after-nonYes,200,,,,0,,

@@ -1,0 +1,5 @@
+setting,backend,n,mean_inflation,mean_abs_eps_diff,frac_within_1step,monotonicity_violations
+LeNet-5/MNIST,tensorrt,100,1.496,0.053,0.89,0
+ResNet-18/CIFAR-10,inductor,100,1.489,0.019,0.98,0
+VGG-16-BN/SVHN,inductor,100,1.54,0.208,0.52,0
+ResNet-34/SVHN,tensorrt,100,1.533,0.232,0.51,0

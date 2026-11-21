@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering\scriptsize
+\setlength{\tabcolsep}{4pt}
+\caption{\revb{Stability across ten random seeds on LeNet-5/MNIST under TensorRT, 20 fixed inputs.}}
+\label{tab:seeds}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{ccccccc}
+\toprule
+Same verdict & Mean draws & Draws over seeds & Median $\epsilon_{\mathrm{Hard}}$ & Per-input $\epsilon_{\mathrm{Hard}}$ spread & Within one step & Per-input draw CV \\
+\midrule
+20/20 & 141.8k (CV 2.3\%) & 136.1k--147.2k & 6.28--6.65 & median 0.30, max 1.40 & 8/20 & median 9.2\%, max 21.7\% \\
+\bottomrule
+\end{tabular}%
+}
+\vspace{-3mm}
+\end{table}

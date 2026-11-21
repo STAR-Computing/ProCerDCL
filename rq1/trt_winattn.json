@@ -1,0 +1,25 @@
+{
+  "issue": "https://github.com/pytorch/TensorRT/issues/4379",
+  "torch": "2.6.0+cu124",
+  "torch_tensorrt": "2.6.0",
+  "n_test": 10000,
+  "acc_eager_fp32": 0.8251,
+  "acc_eager_fp16": 0.8253,
+  "eager_fp16_vs_eager_fp32": {
+    "top1_agree": 9998,
+    "max_abs_logit_diff": 0.00899
+  },
+  "acc_trt_fp16": 0.7336,
+  "BUG_trt_fp16_vs_eager_fp16": {
+    "top1_agree": 8058,
+    "max_abs_logit_diff": 5.05176
+  },
+  "control_trt_fp32_vs_eager_fp32": {
+    "top1_agree": 9999,
+    "max_abs_logit_diff": 0.00452
+  },
+  "control_transpose_trt_fp16_vs_eager_fp16": {
+    "top1_agree": 9997,
+    "max_abs_logit_diff": 0.01221
+  }
+}

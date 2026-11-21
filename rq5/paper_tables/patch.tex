@@ -1,0 +1,19 @@
+\begin{wraptable}{r}{0.42\textwidth}
+\centering\scriptsize
+\renewcommand{\arraystretch}{0.85}
+
+\setlength{\tabcolsep}{3pt}
+\caption{Certificates under the patch distribution on LeNet-5/MNIST.}
+\label{tab:patch}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lcc}
+\toprule
+ & TorchInductor & TensorRT \\
+\midrule
+Conclusive & 100/100 & 99/100 \\
+Pearson & 0.60 & 0.79 \\
+Spearman & 0.80 & 0.89 \\
+Median $\epsilon_{\mathrm{Hard}}$ & 14.3 & 16.8 \\
+\bottomrule
+\end{tabular*}
+
+\end{wraptable}

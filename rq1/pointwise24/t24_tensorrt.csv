@@ -1,0 +1,21 @@
+task_id,model,dataset,backend,image_id,epsilon,theta,verdict,n_samples,k_pointwise,cp_upper,n_generated,n_pointwise_gen,q_ref_stable,n_joint_gen,elapsed_s
+24,ViT-B/16 in21k-ft,SVHN,tensorrt,1,204.8,0.001,Yes,13312,1,5.580e-04,13312,1,0.993239,0,50.5
+24,ViT-B/16 in21k-ft,SVHN,tensorrt,8,233.9,0.001,Yes,9984,0,5.305e-04,9984,0,0.993389,0,30.5
+24,ViT-B/16 in21k-ft,SVHN,tensorrt,12,73.1,0.001,Yes,9984,0,5.305e-04,9984,0,0.994792,0,30.6
+24,ViT-B/16 in21k-ft,SVHN,tensorrt,19,323.0,0.001,Yes,9984,0,5.305e-04,9984,0,0.991587,0,30.7
+24,ViT-B/16 in21k-ft,SVHN,tensorrt,26,202.7,0.001,Yes,9984,0,5.305e-04,9984,0,0.993389,0,30.7
+24,ViT-B/16 in21k-ft,SVHN,tensorrt,28,163.5,0.001,Yes,9984,0,5.305e-04,9984,0,0.992488,0,30.7
+24,ViT-B/16 in21k-ft,SVHN,tensorrt,32,5.4,0.001,Yes,18176,3,6.038e-04,18176,3,0.993233,3,56.0
+24,ViT-B/16 in21k-ft,SVHN,tensorrt,35,149.6,0.001,Yes,15872,2,5.842e-04,15872,2,0.992755,0,48.8
+24,ViT-B/16 in21k-ft,SVHN,tensorrt,42,218.4,0.001,Yes,9984,0,5.305e-04,9984,0,0.99359,0,30.6
+24,ViT-B/16 in21k-ft,SVHN,tensorrt,71,181.6,0.001,Yes,9984,0,5.305e-04,9984,0,0.992388,0,30.7
+24,ViT-B/16 in21k-ft,SVHN,tensorrt,84,55.65,0.001,Yes,9984,0,5.305e-04,9984,0,0.993289,0,30.8
+24,ViT-B/16 in21k-ft,SVHN,tensorrt,86,202.7,0.001,Yes,9984,0,5.305e-04,9984,0,0.99399,0,30.6
+24,ViT-B/16 in21k-ft,SVHN,tensorrt,90,86.4,0.001,Yes,9984,0,5.305e-04,9984,0,0.992989,0,30.7
+24,ViT-B/16 in21k-ft,SVHN,tensorrt,100,232.3,0.001,Yes,9984,0,5.305e-04,9984,0,0.991887,0,30.7
+24,ViT-B/16 in21k-ft,SVHN,tensorrt,107,389.8,0.001,Yes,13312,1,5.580e-04,13312,1,0.993014,0,40.9
+24,ViT-B/16 in21k-ft,SVHN,tensorrt,136,58.5,0.001,Yes,9984,0,5.305e-04,9984,0,0.99389,0,30.7
+24,ViT-B/16 in21k-ft,SVHN,tensorrt,147,168.6,0.001,Yes,13312,1,5.580e-04,13312,1,0.993615,1,40.9
+24,ViT-B/16 in21k-ft,SVHN,tensorrt,151,141.35,0.001,Yes,9984,0,5.305e-04,9984,0,0.994992,0,30.7
+24,ViT-B/16 in21k-ft,SVHN,tensorrt,169,167.0,0.001,Yes,9984,0,5.305e-04,9984,0,0.99369,0,30.7
+24,ViT-B/16 in21k-ft,SVHN,tensorrt,174,288.7,0.001,Yes,13312,1,5.580e-04,13312,1,0.993014,0,40.9

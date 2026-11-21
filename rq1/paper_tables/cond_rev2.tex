@@ -1,0 +1,26 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{0.85}
+\setlength{\tabcolsep}{3.5pt}
+\caption{{Certifying reference-stable and pointwise disagreement on the nominal 50-input cohorts, at the RQ1 radius and at half that radius. Cells give the inputs certified Yes and, in parentheses, mean unique draws in thousands, each draw querying both models. At the tightest threshold and the full radius, the remaining inputs return \textsc{No} or no verdict.}}
+\label{tab:cond}
+\par\noindent\makebox[\linewidth][c]{%
+\begin{tabular}{ll cc cc}
+\toprule
+Setting & Radius & \multicolumn{2}{c}{Reference-stable} & \multicolumn{2}{c}{Pointwise} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}
+& & $\theta=10^{-3}$ & $\theta=10^{-4}$ & $\theta=10^{-3}$ & $\theta=10^{-4}$ \\
+\midrule
+LeNet-5/MNIST$_{\mathrm{trt}}$ & $\epsilon_{\mathrm{Hard}}$ & 49/49 (14.0) & 41/49 (682.4) & 49/49 (15.0) & 34/49 (1085.9) \\
+LeNet-5/MNIST$_{\mathrm{trt}}$ & $\epsilon_{\mathrm{Hard}}/2$ & 49/49 (12.4) & 49/49 (128.8) & 49/49 (12.4) & 49/49 (128.8) \\
+ResNet-18/CIFAR-10$_{\mathrm{ind}}$ & $\epsilon_{\mathrm{Hard}}$ & 48/50 (36.2) & 12/50 (1584.8) & 48/50 (37.8) & 1/50 (2014.1) \\
+ResNet-18/CIFAR-10$_{\mathrm{ind}}$ & $\epsilon_{\mathrm{Hard}}/2$ & 50/50 (12.4) & 50/50 (130.0) & 50/50 (12.4) & 50/50 (130.0) \\
+VGG-16-BN/SVHN$_{\mathrm{ind}}$ & $\epsilon_{\mathrm{Hard}}$ & 50/50 (16.3) & 40/50 (903.1) & 50/50 (18.1) & 30/50 (1576.9) \\
+VGG-16-BN/SVHN$_{\mathrm{ind}}$ & $\epsilon_{\mathrm{Hard}}/2$ & 50/50 (12.4) & 50/50 (128.8) & 50/50 (12.4) & 50/50 (128.8) \\
+ResNet-34/SVHN$_{\mathrm{trt}}$ & $\epsilon_{\mathrm{Hard}}$ & 50/50 (12.7) & 50/50 (223.8) & 50/50 (13.3) & 48/50 (405.3) \\
+ResNet-34/SVHN$_{\mathrm{trt}}$ & $\epsilon_{\mathrm{Hard}}/2$ & 50/50 (12.4) & 50/50 (128.8) & 50/50 (12.4) & 50/50 (129.4) \\
+\bottomrule
+\end{tabular}}\par
+
+\end{table}

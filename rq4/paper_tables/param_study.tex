@@ -1,0 +1,23 @@
+\begin{wraptable}{r}{0.42\textwidth}
+\centering\scriptsize
+\renewcommand{\arraystretch}{0.85}
+\vspace{-4mm}
+\setlength{\tabcolsep}{3pt}
+\caption{Parameter sensitivity of one-model clean-label radius searches on ResNet-18/CIFAR-10 under Inductor.}
+\label{tab:param}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}llrrr}
+\toprule
+varied & value & concl. & radius & draws \\
+\midrule
+default & --- & 100\% & 6.05 & 109,061 \\
+$\theta$ & 0.5\% & 100\% & 5.80 & 199,371 \\
+$\theta$ & 2\% & 100\% & 6.40 & 57,582 \\
+$\theta$ & 5\% & 100\% & 7.40 & 25,978 \\
+$1-\delta$ & 99.9\% & 100\% & 6.05 & 148,694 \\
+$1-\delta$ & 95\% & 100\% & 6.05 & 85,034 \\
+$\eta$ & 0.25\% & 100\% & 6.15 & 301,219 \\
+$\eta$ & 1\% & 100\% & 5.95 & 45,287 \\
+\bottomrule
+\end{tabular*}
+\vspace{-4mm}
+\end{wraptable}

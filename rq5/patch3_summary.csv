@@ -1,0 +1,5 @@
+backend,verifier,attacked,attack_success,verified,conclusive,pearson,pearson_p,spearman,spearman_p,median_attack_eps,median_cert_eps,mean_kdraws
+inductor,ProCerDCL,1000,258,100,100,0.598,5.0e-11,0.796,4.1e-23,13.4,14.25,165.0
+inductor,Single-CS,1000,258,100,100,0.576,3.6e-10,0.754,1.4e-19,13.4,14.7,120.9
+tensorrt,ProCerDCL,1000,309,100,99,0.788,3.7e-22,0.887,3.0e-34,21.09,16.8,170.5
+tensorrt,Single-CS,1000,309,100,99,0.788,4.0e-22,0.889,1.3e-34,21.09,16.8,126.9

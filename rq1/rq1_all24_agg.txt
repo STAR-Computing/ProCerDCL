@@ -1,0 +1,5 @@
+inductor  qualified    settings=23 naive_mean_r=0.506 fisherz_r=0.558 CI=(0.529,0.586) naive_mean_rho=0.572 fisherz_rho=0.641
+inductor  all-swept    settings=27 naive_mean_r=0.445 fisherz_r=0.502 CI=(0.473,0.530) naive_mean_rho=0.500 fisherz_rho=0.579
+tensorrt  qualified    settings=23 naive_mean_r=0.529 fisherz_r=0.577 CI=(0.548,0.604) naive_mean_rho=0.588 fisherz_rho=0.642
+tensorrt  all-swept    settings=27 naive_mean_r=0.496 fisherz_r=0.552 CI=(0.524,0.579) naive_mean_rho=0.540 fisherz_rho=0.609
+bracket-coherence audit: 5415/5415 coherent (100.00%), max_gap=0.100, INCOHERENT=0

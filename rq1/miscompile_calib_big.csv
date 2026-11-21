@@ -1,0 +1,6 @@
+task_id,model,dataset,n_inputs,fault_rel,fault_layer,clean_agree,clean_agree_frac,weight_l2_rel
+2,ResNet-18,CIFAR-10,1000,0.3,fc,999,0.999,0.299233
+2,ResNet-18,CIFAR-10,1000,0.5,fc,997,0.997,0.498722
+2,ResNet-18,CIFAR-10,1000,0.8,fc,990,0.99,0.797956
+2,ResNet-18,CIFAR-10,1000,1.2,fc,982,0.982,1.196933
+2,ResNet-18,CIFAR-10,1000,2.0,fc,967,0.967,1.994889

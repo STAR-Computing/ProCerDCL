@@ -1,0 +1,19 @@
+{
+  "source_json": "result/lenet-5_on_mnist/tensorrt/ProCerDCL/per_image_base50/000020.json",
+  "task": "LeNet-5 on MNIST",
+  "task_id": 1,
+  "compiler": "tensorrt",
+  "image_id": 20,
+  "theta": 0.01,
+  "eta": 0.005,
+  "delta": 0.01,
+  "n_probes": 9,
+  "n_samples_total": 74252,
+  "elapsed_s": 79.091,
+  "eps_hard": 0.8,
+  "stop_epsilon": 0.9,
+  "stop_answer": "None",
+  "largest_yes_radius": 0.8,
+  "n_none_probes": 2,
+  "n_no_probes": 2
+}

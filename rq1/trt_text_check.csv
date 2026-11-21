@@ -1,0 +1,4 @@
+task_id,model,dataset,n_inputs,clean_disagreement,clean_disagreement_pct,max_abs_diff_vs_masked,max_abs_diff_vs_unmasked,mean_real_token_frac
+25,BERT-base,SST-2,200,48,24.0,4.7535,0.003583,0.389
+26,BERT-base,AG News,200,44,22.0,11.5671,0.00872,0.45
+27,DistilBERT,SST-2,200,14,7.0,4.2175,0.004214,0.389

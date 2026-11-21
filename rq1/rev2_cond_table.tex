@@ -1,0 +1,24 @@
+\begin{table}[t]
+{\color{red}%
+\centering\scriptsize
+\setlength{\tabcolsep}{3.5pt}
+\caption{Certifying the compiler-attributable properties with the released machinery (\tool-CS, $\delta=0.01$, $\eta=\theta/2$) on the 50-input cohorts at two fixed radii: the RQ1 radius $\epsilon_{\mathrm{Hard}}$ and $\epsilon_{\mathrm{Hard}}/2$. Conditional: $\psi=\mathbb{1}[M(x')=y_0\wedge\mathcal{C}(x')\neq y_0]$; pointwise: $\psi=\mathbb{1}[M(x')\neq\mathcal{C}(x')]$. Cells give \textsc{Yes}/inputs (mean unique draws $\times10^3$, each draw queries both models). At $\theta=10^{-4}$ the $\epsilon_{\mathrm{Hard}}$ radius was run on LeNet-5 only: there the measured density ($\approx10^{-4}$) lies inside the indifference band, so most inputs exhaust a $\sim10^{6}$-draw budget (\textsc{None}) and the run is not affordable on the larger models.}
+\label{tab:cond}
+\begin{tabular}{ll cc cc}
+\toprule
+Setting & Radius & \multicolumn{2}{c}{Conditional} & \multicolumn{2}{c}{Pointwise} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}
+& & $\theta=10^{-3}$ & $\theta=10^{-4}$ & $\theta=10^{-3}$ & $\theta=10^{-4}$ \\
+\midrule
+LeNet-5/MNIST$_{\mathrm{trt}}$ & $\epsilon_{\mathrm{Hard}}$ & 49/49 (14.0) & 41/49 (682.4) & 49/49 (15.0) & 34/49 (1085.9) \\
+LeNet-5/MNIST$_{\mathrm{trt}}$ & $\epsilon_{\mathrm{Hard}}/2$ & 49/49 (12.4) & 49/49 (128.8) & 49/49 (12.4) & 49/49 (128.8) \\
+ResNet-18/CIFAR-10$_{\mathrm{ind}}$ & $\epsilon_{\mathrm{Hard}}$ & 48/50 (36.2) & -- & 48/50 (37.8) & -- \\
+ResNet-18/CIFAR-10$_{\mathrm{ind}}$ & $\epsilon_{\mathrm{Hard}}/2$ & 50/50 (12.4) & 50/50 (130.0) & 50/50 (12.4) & 50/50 (130.0) \\
+VGG-16-BN/SVHN$_{\mathrm{ind}}$ & $\epsilon_{\mathrm{Hard}}$ & 50/50 (16.3) & -- & 50/50 (18.1) & -- \\
+VGG-16-BN/SVHN$_{\mathrm{ind}}$ & $\epsilon_{\mathrm{Hard}}/2$ & 50/50 (12.4) & 50/50 (128.8) & 50/50 (12.4) & 50/50 (128.8) \\
+ResNet-34/SVHN$_{\mathrm{trt}}$ & $\epsilon_{\mathrm{Hard}}$ & 50/50 (12.7) & -- & 50/50 (13.3) & -- \\
+ResNet-34/SVHN$_{\mathrm{trt}}$ & $\epsilon_{\mathrm{Hard}}/2$ & 50/50 (12.4) & 50/50 (128.8) & 50/50 (12.4) & 50/50 (129.4) \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
